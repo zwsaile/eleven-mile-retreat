@@ -31,7 +31,6 @@ export default function Checklist() {
               </ul>
             </div>
           </div>
-          <p className="text-xs text-justify font-light text-white mt-10 mb-3">Note: we may be able to arrange for certain must bring supplies to be loaned to those in need.</p>
         </div>
       </div>
     );
