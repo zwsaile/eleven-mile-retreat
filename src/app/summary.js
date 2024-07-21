@@ -6,7 +6,7 @@ export default function Summary() {
                     Welcome to the Eleven Mile Canyon Retreat
                 </h1>
                 <p className="text-left text-lg font-normal text-white mb-4">
-                    We're delighted to have you join us this year. Before securing your spot, please ensure you complete the registration form and submit the registration fee in full. Your spot is only guaranteed once both are completed.
+                    We are delighted to have you join us this year. Before securing your spot, please ensure you complete the registration form and submit the registration fee in full. Your spot is only guaranteed once both are completed.
                 </p>
                 <p className="text-left text-lg font-normal text-white">
                     This retreat is an opportunity to enjoy the beautiful Colorado outdoors, connect with your higher power, build lasting relationships with men in AA, and support each other as we trudge the road to happy destiny.
