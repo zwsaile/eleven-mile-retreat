@@ -27,7 +27,7 @@ export default function Checklist() {
                 <li>Extra Batteries</li>
                 <li>Portable Charger</li>
                 <li>Deck of Cards</li>
-                <li>Gear for Outdoor Acivities</li>
+                <li>Gear for Outdoor Activities</li>
               </ul>
             </div>
           </div>
