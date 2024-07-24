@@ -5,6 +5,9 @@ export default function Summary() {
                 <h1 className="text-center text-xl font-bold mb-8 text-white">
                     Welcome to the Eleven Mile Canyon Retreat
                 </h1>
+                <h2 className="text-center text-lg font-bold mb-8 text-white">
+                    9/27/2024 - 9/29/2024
+                </h2>
                 <p className="text-left text-md font-normal text-white mb-4">
                     We are delighted to have you join us this year. Before securing your spot, please ensure you complete the registration form and submit the registration fee in full. Your spot is only guaranteed once both are completed.
                 </p>

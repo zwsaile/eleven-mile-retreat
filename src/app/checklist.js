@@ -1,7 +1,7 @@
 export default function Checklist() {
     return (
       <div className="relative h-screen snap-start flex flex-col justify-center items-center px-4">
-        <div className="w-full max-w-4xl max-h-[80%] bg-[rgba(255,255,255,0.1)] backdrop-blur-md rounded-lg p-8 mt-10 shadow-md">
+        <div className="w-full max-w-4xl max-h-[80%] bg-[rgba(255,255,255,0.1)] backdrop-blur-md rounded-lg p-8 mt-12 shadow-md">
           <h2 className="text-2xl font-bold text-center text-white mb-5">Camping Trip Checklist</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Must Bring Items */}

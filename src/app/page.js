@@ -2,6 +2,7 @@ import Navbar from "./navbar";
 import Summary from "./summary";
 import About from "./about";
 import Checklist from "./checklist";
+import Carousel from "./carousel";
 
 export default function Page() {
   return (
@@ -57,6 +58,13 @@ export default function Page() {
           <div className="h-screen snap-start relative flex flex-col justify-center items-center">
             <div className="absolute top-2 w-full flex flex-col justify-center items-center">
               <Checklist />
+            </div>
+          </div>
+          <div className="h-screen snap-start relative flex flex-col justify-center items-center">
+            <div className="absolute top-2 mt-[5vh] w-full min-h-screen flex flex-col justify-center items-center">
+              <div className="flex items-center justify-center w-[90vw] sm:h-fit md:h-[80vh] bg-[rgba(255,255,255,0.1)] backdrop-blur-md rounded-lg shadow-lg p-4">
+                <Carousel />
+              </div>
             </div>
           </div>
         </div>
