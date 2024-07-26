@@ -12,7 +12,7 @@ export default function Summary() {
                     We are delighted to have you join us this year. Before securing your spot, please ensure you complete the registration form and submit the registration fee in full. Your spot is only guaranteed once both are completed.
                 </p>
                 <p className="text-left text-md font-normal text-white">
-                    This retreat is an opportunity to enjoy the beautiful Colorado outdoors, connect with your higher power, build lasting relationships with men in AA, and support each other as we trudge the road to happy destiny.
+                    This retreat is an opportunity to enjoy the beautiful Colorado outdoors, connect with your higher power, build lasting relationships with men in recovery, and support each other as we trudge the road to happy destiny.
                 </p>
             </div>
         </div>
