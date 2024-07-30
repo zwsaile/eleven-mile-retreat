@@ -9,10 +9,14 @@ export default function Summary() {
                     9/27/2024 - 9/29/2024
                 </h2>
                 <p className="text-left text-md font-normal text-white mb-4">
-                    We are delighted to have you join us this year. Before securing your spot, please ensure you complete the registration form and submit the registration fee in full. Your spot is only guaranteed once both are completed.
+                    We are delighted to have you join us this year. This retreat is an opportunity to enjoy the beautiful Colorado outdoors, connect with your higher power, build lasting relationships with men in recovery, and support each other as we trudge the road to happy destiny.
                 </p>
                 <p className="text-left text-md font-normal text-white">
-                    This retreat is an opportunity to enjoy the beautiful Colorado outdoors, connect with your higher power, build lasting relationships with men in recovery, and support each other as we trudge the road to happy destiny.
+                    Before securing your spot, please ensure you complete the registration form and submit the registration fee in full. Your spot is only guaranteed once both are completed. If you have any question or would like to contact us, feel free to email us at &#160;
+                    <a 
+                        className="underline"
+                        href="mailto:11mileretreat@gmail.com">11mileretreat@gmail.com
+                    </a>
                 </p>
             </div>
         </div>
