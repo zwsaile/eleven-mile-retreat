@@ -52,8 +52,8 @@ export default function Carousel() {
   };
 
   return (
-    <div className="relative w-full h-full overflow-hidden">
-      <div className="absolute bottom-4 left-4 lg:bottom-8 lg:left-8 z-10">
+    <div className="relative w-full h-full overflow-hidden sm:max-h-[50vh] md:max-h-full lg:max-w-[50vw]">
+      <div className="absolute bottom-4 left-4 lg:bottom-8 lg:left-8 lg:max-w-[50vw] z-10">
         <button
           onClick={prevSlide}
           className="bg-white text-black p-4 rounded-full transition-transform transform hover:scale-105 hover:translate-y-[-2px]"

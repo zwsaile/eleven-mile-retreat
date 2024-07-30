@@ -62,7 +62,7 @@ export default function Page() {
           </div>
           <div className="h-screen snap-start relative flex flex-col justify-center items-center">
             <div className="absolute top-2 mt-[5vh] w-full min-h-screen flex flex-col justify-center items-center">
-              <div className="flex items-center justify-center w-[90vw] sm:h-fit md:h-[80vh] bg-[rgba(255,255,255,0.1)] backdrop-blur-md rounded-lg shadow-lg p-4">
+              <div className="flex items-center justify-center w-[90vw] sm:h-fit md:h-[80vh] bg-[rgba(255,255,255,0.1)] backdrop-blur-md rounded-lg shadow-lg p-4 sm:max-h-[80vh] md:max-h-full md:max-w-[80vw]">
                 <Carousel />
               </div>
             </div>
