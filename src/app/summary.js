@@ -1,7 +1,7 @@
 export default function Summary() {
     return (
-        <div className="relative h-screen flex flex-col justify-center items-center max-h-[90vh]">
-            <div className="w-[85vw] -mt-[20vh] flex flex-col justify-center items-center bg-[rgba(255,255,255,0.1)] backdrop-blur-md p-10 shadow-md rounded-md">
+        <div className="relative h-screen flex flex-col justify-center items-center max-h-[70vh]">
+            <div className="w-[85vw] -mt-[10vh] flex flex-col justify-center items-center bg-[rgba(255,255,255,0.1)] backdrop-blur-md p-10 shadow-md rounded-md">
                 <h1 className="text-center text-xl font-bold mb-8 text-white">
                     Welcome to the Eleven Mile Canyon Retreat
                 </h1>
