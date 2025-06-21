@@ -6,69 +6,70 @@ import Carousel from "./carousel";
 
 export default function Page() {
   return (
-    <div className="relative overflow-hidden">
-      {/* Background Image */}
-      <div
-        className="fixed top-0 left-0 w-full h-screen bg-cover bg-no-repeat z-0"
-        style={{ backgroundImage: "url('/sunset.jpg')" }}
-      ></div>
+    <div className="bg-[#fffaf5] text-gray-900">
+      {/* Navbar */}
+      <div className="fixed top-0 left-0 w-full z-20 bg-white shadow-sm">
+        <Navbar />
+      </div>
 
       {/* Content */}
-      <div className="relative z-10 flex flex-col">
-        {/* Navbar */}
-        <div className="fixed top-0 left-0 w-full z-20">
-          <Navbar />
-        </div>
-
-        {/* Scrollable Content */}
-        <div className="snap-y snap-mandatory overflow-y-scroll h-screen">
-          <div className="h-screen snap-start relative flex flex-col justify-end items-center">
-            <div className="absolute top-[20%] w-[80%] flex flex-col justify-center items-center bg-[rgba(255,255,255,0.2)] backdrop-blur-sm p-6 shadow-md rounded-md">
-              <h1 className="text-center text-3xl font-bold mb-5 text-white">
+      <main className="pt-24 space-y-0">
+        {/* Hero */}
+        <section className="min-h-screen flex flex-col-reverse md:flex-row items-center justify-center px-6 py-20 bg-gradient-to-br from-[#fff8f0] via-[#fff2e2] to-[#ffe5d9]">
+          <div className="max-w-[90rem] w-full flex flex-col-reverse md:flex-row items-center justify-between gap-10 bg-white/90 backdrop-blur-sm p-10 rounded-2xl shadow-md">
+            
+            {/* Text Block */}
+            <div className="w-full md:w-1/2 space-y-12 text-center md:text-left">
+              <h1 className="text-4xl md:text-5xl font-bold text-gray-900">
                 Most of us feel we need look no further for Utopia.
               </h1>
-              <h2 className="text-center text-2xl font-normal text-white">
+              <h2 className="text-2xl md:text-3xl text-gray-700">
                 We have it with us right here and now.
               </h2>
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSc5YS3MFvIKzU7U_MrS7lZiLznLCluk8cCYLYn68rPUM_cb4A/viewform?usp=sf_link"
+                className="inline-block px-6 py-3 bg-[#ffb347] text-white text-xl font-semibold rounded-full shadow hover:bg-[#ffa534] transition"
+              >
+                Sign Up
+              </a>
             </div>
-            <div className="flex flex-row justify-around w-full max-w-4xl bg-[rgba(255,255,255,0.1)] backdrop-blur-sm rounded-lg p-8 m-4 text-center">
-              <p className="text-sm text-left text-white w-[65%]">
-                Secure your spot now by clicking the sign up button, or scroll down for more information.
-              </p>
-              <div className="flex justify-center">
-                <a 
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSc5YS3MFvIKzU7U_MrS7lZiLznLCluk8cCYLYn68rPUM_cb4A/viewform?usp=sf_link"
-                  className="inline-flex justify-center items-center px-4 py-2 bg-black text-white text-lg md:text-xl font-semibold rounded-lg shadow-md text-center hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-black focus:ring-opacity-75"
-                >
-                  Sign Up
-                </a>
-              </div>
-            </div>
+
+            {/* Image */}
+            <div
+              className="w-full md:w-1/2 h-[50vh] bg-cover bg-center rounded-xl shadow-md"
+              style={{ backgroundImage: "url('/sunset.jpg')" }}
+            />
           </div>
-          <div className="h-screen snap-start relative flex flex-col justify-center items-center">
-            <div className="absolute top-[20%] w-full flex flex-col justify-center items-center">
-              <Summary />
-            </div>
+        </section>
+
+        {/* Summary */}
+        <section className="bg-gradient-to-b from-[#ffeedd] to-[#fff8f0] px-6 py-24">
+          <div className="max-w-[90rem] mx-auto rounded-2xl shadow-md p-10 bg-white/90 backdrop-blur-sm">
+            <Summary />
           </div>
-          <div className="h-screen snap-start relative flex flex-col justify-center items-center">
-            <div className="absolute top-[20%] w-full flex flex-col justify-center items-center">
-              <About />
-            </div>
+        </section>
+
+        {/* About */}
+        <section className="bg-gradient-to-b from-[#fff8f0] to-[#fef3e8] px-6 py-24">
+          <div className="max-w-[90rem] mx-auto rounded-2xl shadow-md p-10 bg-white/90 backdrop-blur-sm">
+            <About />
           </div>
-          <div className="h-screen snap-start relative flex flex-col justify-center items-center">
-            <div className="absolute top-2 w-full flex flex-col justify-center items-center">
-              <Checklist />
-            </div>
+        </section>
+
+        {/* Checklist */}
+        <section className="bg-gradient-to-b from-[#fef3e8] to-[#fff8f0] px-6 py-24">
+          <div className="max-w-[90rem] mx-auto rounded-2xl shadow-md p-10 bg-white/90 backdrop-blur-sm">
+            <Checklist />
           </div>
-          <div className="h-screen snap-start relative flex flex-col justify-center items-center">
-            <div className="absolute top-2 mt-[5vh] w-full min-h-screen flex flex-col justify-center items-center">
-              <div className="flex items-center justify-center w-[90vw] sm:h-fit md:h-[80vh] bg-[rgba(255,255,255,0.1)] backdrop-blur-md rounded-lg shadow-lg p-4 sm:max-h-[80vh] md:max-h-full md:max-w-[80vw]">
-                <Carousel />
-              </div>
-            </div>
+        </section>
+
+        {/* Carousel */}
+        <section className="bg-gradient-to-b from-[#fff8f0] to-[#ffeedd] px-6 py-24">
+          <div className="max-w-[90rem] mx-auto">
+            <Carousel />
           </div>
-        </div>
-      </div>
+        </section>
+      </main>
     </div>
   );
 }
