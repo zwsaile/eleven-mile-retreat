@@ -11,11 +11,11 @@ export default function About() {
         </div>
 
         <p className="text-md md:text-lg leading-relaxed">
-          Tucked away in central Colorado’s Pike National Forest, Eleven Mile Canyon is a hidden gem where granite walls meet winding waters. Just a short drive from Lake George and Florissant, the canyon invites you to slow down and reconnect with nature, with others, and with yourself.
+            Tucked away in central Colorado&rsquo;s Pike National Forest, Eleven Mile Canyon is a hidden gem where granite walls meet winding waters. Just a short drive from Lake George and Florissant, the canyon invites you to slow down and reconnect with nature, with others, and with yourself.
         </p>
 
         <p className="text-md md:text-lg leading-relaxed">
-          Whether you're hiking peaceful trails, fishing along the river, cliff diving into crystal waters, or spotting eagles overhead, Eleven Mile is more than a destination. It's a chance to recharge, reflect, and be present.
+            Whether you&#39;re hiking peaceful trails, fishing along the river, cliff diving into crystal waters, or spotting eagles overhead, Eleven Mile is more than a destination. It&#39;s a chance to recharge, reflect, and be present.
         </p>
       </div>
 
