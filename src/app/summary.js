@@ -6,7 +6,7 @@ export default function Summary() {
           Welcome to the Eleven Mile Canyon Retreat
         </h1>
         <h2 className="text-lg md:text-xl font-medium text-gray-600">
-          October 3 – October 5, 2025
+          October 2 – October 4, 2026
         </h2>
         <div className="mx-auto w-24 md:w-32 h-1 bg-[#ffb347] rounded-full mt-4" />
       </div>
