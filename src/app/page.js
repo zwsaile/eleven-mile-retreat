@@ -27,7 +27,7 @@ export default function Page() {
                 We have it with us right here and now.
               </h2>
               <a
-                href="https://docs.google.com/forms/d/e/1FAIpQLSc5YS3MFvIKzU7U_MrS7lZiLznLCluk8cCYLYn68rPUM_cb4A/viewform?usp=sf_link"
+                href="https://forms.gle/4h5Dk49sUKDnCZEJ7"
                 className="inline-block px-6 py-3 bg-[#ffb347] text-white text-xl font-semibold rounded-full shadow hover:bg-[#ffa534] transition"
               >
                 Sign Up
